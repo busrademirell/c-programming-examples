@@ -1,10 +1,12 @@
 #include <stdio.h>
-int main()
+
+void main()
 { 
-    int A,B,C; 
-    scanf("%d",A,B,C);
-    int c=(A+B)/2;
-       printf("A say gir"); 
-       printf("B say gir"); 
-    return 0;
-} 
+    float A;
+    float B; 
+    printf("A sayi gir: \n");
+    scanf("%f",&A);
+    printf("B sayi gir: \n");
+    scanf("%f",&B);
+    printf("sonuc: %.3f",(A+B)/2);
+} // baktık

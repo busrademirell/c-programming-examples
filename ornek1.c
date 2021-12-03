@@ -1,7 +1,8 @@
-#include <stdio.h> // define the header file
-int main()         // define the main function
+#include <stdio.h> 
+int main()        
 {
-    int say1, say2;
+    int say1;
+    int say2;
     printf("birinci sayi girin\n");
     scanf("%d", &say1);
     printf("ikinci sayi girin\n");
@@ -10,3 +11,4 @@ int main()         // define the main function
     printf("Toplam: %d", toplam);
     return 0;
 }
+// Bakıldı, beraber yapıldı
